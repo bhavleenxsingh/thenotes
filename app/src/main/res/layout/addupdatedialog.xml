@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Note ..."
+        android:textSize="30sp"
+        android:layout_marginBottom="15sp"
+        android:id="@+id/headingxml"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add Title..."
+        android:ems="15"
+        android:id="@+id/titlexml"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add Title..."
+        android:ems="15"
+        android:id="@+id/descxml"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginBottom="10sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="10sp"
+        android:id="@+id/savebtnxml"
+        />
+
+
+
+
+</LinearLayout>
