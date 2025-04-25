@@ -7,6 +7,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.core.graphics.Insets;
@@ -23,6 +24,9 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     recyclerviewadapter myadapter;
     FloatingActionButton fabxml;
+
+
+
     ArrayList<notesmodel> notesmodelArrayList = new ArrayList<>();
 
     @Override

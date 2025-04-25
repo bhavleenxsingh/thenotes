@@ -29,4 +29,16 @@
         android:text="NOTES"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By : Bhavleen Singh"
+        android:textColor="@color/headingbrown"
+        android:textSize="17sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginTop="150sp"
+        />
+
+
 </LinearLayout>
