@@ -14,16 +14,17 @@
         android:id="@+id/recyclerviewxml"
         />
 
-<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton        android:layout_width="wrap_content"
+<com.google.android.material.floatingactionbutton.FloatingActionButton
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:layout_alignParentRight="true"
     android:layout_marginBottom="35sp"
     android:layout_marginRight="35sp"
-    android:text="+"
     android:textSize="25sp"
     android:backgroundTint="@color/button"
     android:id="@+id/fabxml"
+     android:layout_width="match_parent"
+    android:contentDescription="Add new note"
     />
 
 
